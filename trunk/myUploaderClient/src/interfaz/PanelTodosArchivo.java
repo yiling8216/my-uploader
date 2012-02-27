@@ -51,7 +51,7 @@ public class PanelTodosArchivo extends javax.swing.JPanel {
                 
             matriz[i][j]=new PanelArchivo(misArchivos.get(x),miVP);
             x++;
-            matriz[i][j].setBounds((200*j)+5,(200*i)+5, 150, 190);
+            matriz[i][j].setBounds((200*j)+5,(200*i)+5, 150, 220);
             this.add(matriz[i][j]);
             }
 
