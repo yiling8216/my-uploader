@@ -12,6 +12,7 @@ package conf;
 public class Conf {
 
     public static String login="http://localhost/myUploaderServer/login.php";
+    public static String descarga="http://localhost/myUploaderServer/upload/";
     public static String agregarUsuario="http://localhost/myUploaderServer/addUsuario.php";
     public static String agregarArchivo="http://localhost/myUploaderServer/subir.php?usuario=";
     public static String buscarArchivo="http://localhost/myUploaderServer/misArchivos.php";
@@ -46,6 +47,22 @@ public class Conf {
 
     public static void setLogin(String login) {
         Conf.login = login;
+    }
+
+    public static String getAgregarUsuario() {
+        return agregarUsuario;
+    }
+
+    public static void setAgregarUsuario(String agregarUsuario) {
+        Conf.agregarUsuario = agregarUsuario;
+    }
+
+    public static String getDescarga() {
+        return descarga;
+    }
+
+    public static void setDescarga(String descarga) {
+        Conf.descarga = descarga;
     }
 
     
