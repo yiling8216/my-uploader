@@ -209,7 +209,7 @@ public class Conexion implements Runnable {
            try {
 
 			URL url = new URL(
-					"http://localhost/cloud/upload/"+nUsuario+"/"+miArchivo);
+					conf.Conf.descarga+nUsuario+"/"+miArchivo);
 
 			// Establecemos conexion
 			URLConnection urlCon = url.openConnection();
