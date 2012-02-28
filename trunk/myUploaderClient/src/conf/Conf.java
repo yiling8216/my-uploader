@@ -11,11 +11,11 @@ package conf;
  */
 public class Conf {
 
-    public static String login="http://localhost/myUploaderServer/login.php";
-    public static String descarga="http://localhost/myUploaderServer/upload/";
-    public static String agregarUsuario="http://localhost/myUploaderServer/addUsuario.php";
-    public static String agregarArchivo="http://localhost/myUploaderServer/subir.php?usuario=";
-    public static String buscarArchivo="http://localhost/myUploaderServer/misArchivos.php";
+    public static String login="http://inmag.com.co/myuploader/login.php";
+    public static String descarga="http://inmag.com.co/myuploader/upload/";
+    public static String agregarUsuario="http://inmag.com.co/myuploader/addUsuario.php";
+    public static String agregarArchivo="http://inmag.com.co/myuploader/subir.php?usuario=";
+    public static String buscarArchivo="http://inmag.com.co/myuploader/misArchivos.php";
 
     public static String getAgregarArchivo() {
         return agregarArchivo;
