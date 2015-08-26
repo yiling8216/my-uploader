@@ -1,0 +1,3 @@
+MyUploader es una aplicación desarrollada especialmente para todas esas personas que desean tener un cargador de archivos propio y poder personalizarlo como se desee, la aplicacion esta desarrollada de la parte del cliente con J2SE y posteriormente se iniciara con el desarrollo para la parte movil y de la parte del servidor se desarrolla sobre PHP con MySQL Server como sistema de gestión de bases de datos.
+
+Cualquier inquietud dirigirse a diegomao627@gmail.com
